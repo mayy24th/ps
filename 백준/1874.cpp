@@ -8,6 +8,7 @@ int main() {
 
     stack<int> S;
     string res;
+
     int n; cin >> n;
     int num = 1;
 
