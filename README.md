@@ -1,3 +1,5 @@
-# cpp_ps
+# ps
 
-cpp coding test
+coding test
+- python
+- cpp
