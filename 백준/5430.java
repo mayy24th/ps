@@ -15,7 +15,7 @@ public class Main {
         ArrayDeque<Integer> deque;
         int tc = Integer.parseInt(br.readLine());
 
-        while(tc --> 0) {
+        while(tc --> 0) { // == for(int t=0; t<tc; t++)
             String op = br.readLine();
             int len = Integer.parseInt(br.readLine());
 

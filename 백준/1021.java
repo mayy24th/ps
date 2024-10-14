@@ -24,6 +24,13 @@ public class Main {
         for(int i=0; i<M; i++){
             int findNum = Integer.parseInt(st.nextToken());
 
+            // <-- 2
+            // --> 3
+            // 1 2 3 4 5 6 7 8 9 10
+
+            // min(Deque.size() - 찾은 인덱스, 찾은 인덱스)
+            // 2
+
             int idx = 0;
             for(int num : deque){
                 if(num == findNum) break;
